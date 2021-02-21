@@ -69,6 +69,10 @@ export default class Formlist extends Component {
     // TambahData = () => {
     //     navigation.navigate('Formadduser');
     // };
+    detailData = (item) => {
+        console.log(item);
+        // navigation.navigate('MyComponent',{item});
+    };
     render() {
       
         return (
@@ -91,7 +95,7 @@ export default class Formlist extends Component {
     <Image source={{ uri: item.urlDownload }} style={styleslist.Image} />
     </View>
     <View>
-        <Text style={styleslist.textItemLogin} onPress={() => this.props.navigation.navigate('MyComponent')} text="1" > {item.nama}</Text>
+        <Text style={styleslist.textItemLogin} onPress={() => this.props.navigation.navigate('Formedituser')} > {item.nama}</Text>
         <Text style={styleslist.textItemUrl}> {item.gender} /{item.umur} tahun</Text>
 
     </View>
