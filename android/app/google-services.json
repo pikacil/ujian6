@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "10949115686",
+    "firebase_url": "https://ujian6-babd5-default-rtdb.firebaseio.com",
+    "project_id": "ujian6-babd5",
+    "storage_bucket": "ujian6-babd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10949115686:android:05a398cd215b4268adcbe7",
+        "android_client_info": {
+          "package_name": "com.ujian6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10949115686-6ra29fn0jj2dvalvsq85rtqbdki039d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsDp_XZZJa7O0yy0vjAU2h5qHJYHXGZFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10949115686-6ra29fn0jj2dvalvsq85rtqbdki039d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
